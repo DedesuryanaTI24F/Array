@@ -44,7 +44,7 @@ public class MenghitungMahasiswa {
 
         for (int j = 0; j < mahasiswa.length; j++) {
             String status;
-            if (nilai[j] >= 70) {
+            if (nilai[j] >= 75) {
                 status = "Lulus";
             } else {
                 status = "Tidak Lulus";
